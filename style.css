@@ -30,3 +30,16 @@ h1 {color: rgb(47, 92, 240);
         transform: translateX(0);
     }
 }
+
+#texto-animado {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #040fa5;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: animacao-texto 5s infinite alternate;
+}
