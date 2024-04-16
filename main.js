@@ -5,11 +5,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("Qual a área da saúde que se utiliza laboratório?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "Biomedicina") {
+      alert("Isso mesmo! È na Biomedicina que se utiliza laboratório para exames e analises!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
